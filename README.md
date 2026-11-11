@@ -8,7 +8,7 @@ This project provides a working starting point for our mobile application using 
 - Updated the home page to display “Hello, world!”.
 - Ran the application locally in a browser.
 
-The three functional tabs are planned for the next development phase.
+The application has a tab bar for Home, BMI, Morse Code, and Alcohol Age. The three tool tabs are empty placeholders; their functionality is planned for the next development phase.
 
 ## Getting started (10–15 minutes)
 
@@ -58,19 +58,23 @@ Leave the terminal running while developing. Saved changes reload in the browser
 ## Where to start editing
 
 - `src/views/HomePage.vue` — current home page, including its content and styles.
+- `src/views/TabsPage.vue` — tab bar and tab navigation.
+- `src/views/` — empty pages for the three planned tools.
 - `src/App.vue` — root application component.
 - `src/router/` — page routing.
 - `package.json` — dependencies and development commands.
 
 ## Next development phase
 
-The next developer will add three functional tabs:
+The next developer will verify the three tool tabs are working:
 
 1. **BMI Calculator:** Enter height and weight, calculate BMI, and display the corresponding category.
 2. **Morse Code Translator:** Enter text and convert it into dots and dashes.
 3. **When Can I Buy Alcohol?:** Enter a date of birth and select a jurisdiction to determine when the user reaches the legal purchasing age.
 
-These features are not implemented yet.
+Then they will add a fourth tab containing a Quiz application with multiple-choice questions, question navigation, swipe functionality, and score tracking.
+
+This feature is not implemented yet.
 
 ## Troubleshooting
 
